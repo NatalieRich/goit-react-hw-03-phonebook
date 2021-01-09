@@ -1,0 +1,73 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 30px;
+  padding: 30px;
+  width: 460px;
+  height: 270px;
+  background-color: rgb(216, 245, 205);
+  border: solid greenyellow;
+}
+.button {
+  width: 410px;
+  height: 50px;
+  margin-top: 20px;
+  color: rgb(65, 63, 63);
+  background-color: ivory;
+  border: solid rgb(253, 253, 208);
+  font-size: 20px;
+}
+
+.formLabel {
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+input,
+label {
+  display: block;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+}
+
+.list {
+  display: inline-block;
+
+  width: 450px;
+  background-color: lemonchiffon;
+  padding: 30px;
+  font-size: 20px;
+  outline: solid rgb(255, 255, 161);
+}
+
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.buttonDelete {
+  margin-top: 20px;
+  width: 70px;
+  height: 25px;
+}
+
+.labelFilter {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.filter {
+  width: 400px;
+  height: 50px;
+}
